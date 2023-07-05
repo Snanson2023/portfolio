@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<header>
+		<nav id="top-nav">
+			<ul>
+				<li><a href="#hero">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="hero">
+		<div class="hero-content">
+			<img id="profile-pic" src="Resources\Images\profile-pic.png" alt="Profile Picture">
+			<div class="personal-info">
+				<h1>Sam Nanson</h1>
+				<ul id="personal">
+					<li>32</li>
+					<li>South Wales</li>
+					<li>Building Maintenance Technician</li>
+				</ul>
+			</div>
+		</div>
+		<video id="hero-video" autoplay loop muted>
+			<source src="Resources/Video/gears.mp4" type="video/mp4">
+		</video>
+	</section>
+
+	<section id="about">
+		<h2>About Me</h2>
+		<p>Hi, my name is Sam and I am a Building Maintenance Technician from South Wales. Although my background is in
+			maintenance, I have always had a strong passion for coding and technology. After years of putting it off, I
+			decided to take the leap and pursue my passion for coding by enrolling in a diploma program for web and
+			software development.</p>
+		<br>
+		<p>Currently, I am working my way through the Full-Stack course on Codecademy with a goal of becoming a
+			well-rounded developer. My ultimate goal is to start a Mechatronics Engineering apprenticeship and further
+			my knowledge in the field of engineering while improving my coding skills on the side.</p>
+		<br>
+		<p>When I'm not tinkering with code or maintaining buildings, you can usually find me gaming or spending some
+			quality time with my daughter. I'm excited for the opportunities and challenges that the world of
+			programming and engineering has to offer, and I can't wait to see where this journey takes me.</p>
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<ul id="skills-list">
+			<li><img src="Resources\Images\HTML5_Badge.png" alt="HTML5"></li>
+			<li><img src="Resources\Images\css.png" alt="CSS3"></li>
+			<li><img src="Resources\Images\javascript.png" alt="JavaScript"></li>
+			<li><img src="Resources\Images\Python-logo-notext.png" alt="Python"></li>
+			<li><img src="Resources\Images\Git-Icon-Black.png" alt="Git"></li>
+		</ul>
+	</section>
+
+	<section id="projects">
+		<h2>Projects</h2>
+		<div class="projects-container">
+			<div class="project-item">
+				<img src="Resources/Images/project-placeholder.png" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="project-item">
+				<img src="Resources/Images/project-placeholder.png" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="project-item">
+				<img src="Resources/Images/project-placeholder.png" alt="Project 3">
+				<h3>Project 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Me</h2>
+		<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Send">
+		</form>
+	</section>
+
+	<footer>
+		<p>© 2023 My Portfolio. All rights reserved.</p>
+		<div class="social-media">
+			<a href="https://www.facebook.com/sam.nanson.3705" target="blank"><i
+					class="fa-brands fa-square-facebook fa-bounce fa-lg" style="color: #ffffff;"></i></a>
+			<a href="https://twitter.com" target="blank"><i class="fa-brands fa-square-twitter fa-bounce fa-lg"
+					style="color: #ffffff;"></i></a>
+			<a href="https://github.com/Snanson2023" target="blank"><i
+					class="fa-brands fa-square-github fa-bounce fa-lg" style="color: #ffffff;"></i></a>
+			<a href="https://www.linkedin.com/in/sam-nanson/" target="blank"><i
+					class="fa-brands fa-linkedin fa-bounce fa-lg" style="color: #ffffff;"></i></a>
+			<a href="https://www.instagram.com/nansonsam/" target="blank"><i
+					class="fa-brands fa-square-instagram fa-bounce fa-lg" style="color: #ffffff;"></i></a>
+			<a href="https://wa.me/447858913274" target="blank"><i class="fa-brands fa-square-whatsapp fa-bounce fa-lg"
+					style="color: #ffffff;"></i></a>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/72f8168cc1.js" crossorigin="anonymous"></script>
+	<script src="JS\smooth-scroll.js"></script>
+
+</body>
+</html>
